@@ -1,0 +1,16 @@
+body{
+    animation: seta 1s ease-in-out alternate infinite;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+img{
+    width: 200px;
+}
+
+@keyframes seta{
+    to {
+        transform: translateY(30px);
+    }
+}

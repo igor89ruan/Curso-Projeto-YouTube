@@ -1,0 +1,48 @@
+
+/*body{
+    animation: gradient 5s ease infinite;
+    background: linear-gradient(-45deg, #ff003c, #ff8a00, #88c100, #00c176,#00b4cc, #00dffc) no-repeat;
+    background-size: 300% 300%;    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+    font-size: 200%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+}*/
+
+body{
+    animation: gradient 3s ease alternate infinite;
+    background: linear-gradient(-45deg, #ff003c, #ff8a00, #88c100, #00c176,#00b4cc, #00dffc) no-repeat;
+    background-size: 300% 300%;    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+    font-size: 200%;
+}
+
+@keyframes gradient {
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 100% 50%;
+    }
+}
